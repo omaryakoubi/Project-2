@@ -1,0 +1,264 @@
+h1 {
+    font-family:"Monospace",'Courier New', Courier, monospace;
+    font-size: 100px;
+    position: relative;
+    margin-left:31.7%;
+    text-shadow: 5px 5px 5px black;   
+}
+
+body {
+    background-image: url("https://i.pinimg.com/originals/60/33/d8/6033d810cc66b0ee9aaf1f9e1f97fc88.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    border: none;
+    color: white;
+    padding: 32px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 42%;
+    height: 48%;
+}
+
+#t1 {
+    top:20%;
+    margin-left:32%
+}
+
+#GiveUp {
+    background-color: rgb(77, 0, 128);
+    border: 2px solid rgb(77, 0, 128);
+    font-family:"Monospace",'Courier New', Courier, monospace;
+    position: absolute;
+    left: 0.2%;
+    top:1%;
+    text-align: center;
+    color:white;
+    font-size: 20px;
+    padding: 14px 40px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+#GiveUp:hover {
+    background-color:rgb(165, 114, 199);
+    border: 2px solid rgb(165, 114, 199);
+}
+
+#Reset {
+    background-color: rgb(0, 24, 129);
+    border: 2px solid rgb(0, 24, 129);
+    font-family:"Monospace",'Courier New', Courier, monospace;
+    position: absolute;
+    left: 92%;
+    top:1%;
+    text-align: center;
+    color:white;
+    font-size: 20px;
+    padding: 14px 40px;
+    border-radius: 12px;
+    transition: 0.3s;
+
+}
+
+#Reset:hover {
+    background-color:rgb(13, 128, 196);
+    border: 2px solid rgb(13, 128, 196);
+}
+
+.Button1 {
+    border: none;
+    font-family:"Monospace",'Courier New', Courier, monospace;
+    font-size: 30px;
+    background-color: white;
+    color: white;
+    box-shadow: 5px 5px 5px #000000;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 32px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 4px;
+    cursor: pointer;
+    width: 150px;
+    height: 120px;
+    transition: 0.3s;
+}
+
+.ButtonC {
+    border: none;
+    font-family:"Monospace",'Courier New', Courier, monospace;
+    font-size: 20px;
+    background-color: white;
+    color: white;
+    box-shadow: 5px 5px 5px #414040;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 60px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 4px;
+    cursor: pointer;
+    width: 150px;
+    height: 120px;
+    transition: 0.3s;
+}
+
+
+
+.Button1:hover {
+    background: rgb(235,78,128);
+    background: linear-gradient(149deg, rgba(235,78,128,1) 20%, rgba(235,78,128,1) 31%, rgba(76,0,255,1) 73%);
+    color: white;
+}
+
+img {
+    background-color: white;
+    position: relative;
+    border: none;
+    color: white;
+    box-shadow: 5px 5px 5px #414040;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 60px 32px;
+    margin: 4px 4px;
+    cursor: pointer;
+    width: 7%;
+    height: 7%;
+}
+    
+#ButtonC0 {
+    background-image: url("/Fruits/Orange.jpg");
+    background-size: 140px;
+    background-position: center;
+    background-repeat: none;
+    
+}
+
+#ButtonC1 {
+    background-image: url("/Fruits/Kiwi.jpg");
+    background-color:white ;
+    background-size: 140px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#ButtonC2 {
+    background-image: url("/Fruits/Grapes.jpg");
+    background-color: white;
+    background-size: 130px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#ButtonC3 {
+    background-image: url("/Fruits/Strawberry.png");
+    background-color: white;
+    background-size: 130px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#ButtonC4 {
+    background-image: url("/Fruits/Strawberry.png");
+    background-color: white;
+    background-size: 130px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#ButtonC5 {
+    background-image: url("/Fruits/Pear.jpg");
+    background-size: 120px;
+    background-position: center;
+    background-repeat: none;
+}
+
+#ButtonC6 {
+    background-image: url("/Fruits/Plum.jpg");
+    background-size: 140px;
+    background-position: center;
+    background-repeat: none;
+}
+
+#ButtonC7 {
+    background-image: url("/Fruits/Orange.jpg");
+    background-color: white;
+    background-size: 140px;
+    background-position: center;
+    background-repeat: none;
+}
+
+#ButtonC8 {
+    background-image: url("/Fruits/Banana.jpg");
+    background-size: 140px;
+    background-position: center;
+    background-repeat: none;
+}
+
+#ButtonC9 {
+    background-image: url("/Fruits/Grapes.jpg");
+    background-color:white ;
+    background-size: 130px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#ButtonC10 {
+    background-image: url("/Fruits/Kiwi.jpg");
+    background-size: 140px;
+    background-position: center;
+    background-repeat: none;
+}
+
+#ButtonC11 {
+    background-image: url("/Fruits/Cherry.jpg");
+    background-color: white;
+    background-size: 97px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#ButtonC12 {
+    background-image: url("/Fruits/Plum.jpg");
+    background-size: 140px;
+    background-position: center;
+    background-repeat: none;
+}
+
+#ButtonC13 {
+    background-image: url("/Fruits/Pear.jpg");
+    background-size: 120px ;
+    background-position: center;
+    background-repeat: none;
+}
+
+#ButtonC14 {
+    background-image: url("/Fruits/Cherry.jpg");
+    background-color: white;
+    background-size: 97px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#ButtonC15 {
+    background-image: url("/Fruits/Banana.jpg");
+    background-size: 140px;
+    background-position: center;
+    background-repeat: none;
+}
+
+
+
+
+
